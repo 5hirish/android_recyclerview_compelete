@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">RecylerViewComplete</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="mcu_titles">
+        <item>Iron Man</item>
+        <item>The Incredible Hulk</item>
+        <item>Iron Man 2</item>
+        <item>Thor</item>
+        <item>Captain America: The First Avenger</item>
+        <item>The Avengers</item>
+        <item>Iron Man 3</item>
+        <item>Thor: The Dark World</item>
+        <item>Captain America: The Winter Soldier</item>
+        <item>Guardians of the Galaxy</item>
+        <item>Avengers: Age of Ultron</item>
+        <item>Ant-Man</item>
+        <item>Captain America: Civil War</item>
+    </string-array>
+
+    <string-array name="mcu_titles_coming">
+        <item>Doctor Strange</item>
+        <item>Guardians of the Galaxy Vol. 2</item>
+        <item>Spider-Man: Homecoming</item>
+        <item>Thor: Ragnarok</item>
+        <item>Black Panther</item>
+        <item>Avengers: Infinity War – Part 1</item>
+        <item>Ant-Man and the Wasp</item>
+        <item>Captain Marvel</item>
+        <item>Avengers: Infinity War – Part 2</item>
+    </string-array>
+
+</resources>
