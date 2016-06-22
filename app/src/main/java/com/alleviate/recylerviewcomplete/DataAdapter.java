@@ -33,12 +33,15 @@ public class DataAdapter extends RecyclerView.Adapter<DataAdapter.ViewHolder> {
     }
 
     @Override
-    public void onBindViewHolder(DataAdapter.ViewHolder holder, final int position) {
+    public void onBindViewHolder(final DataAdapter.ViewHolder holder, int position) {
         ((TextView) holder.itemView.findViewById(R.id.textView)).setText(mcu_movies.get(position).toString());
 
         ((RelativeLayout) holder.itemView.findViewById(R.id.relative_layout)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                int position = holder.getAdapterPosition();
+
                 update(mcu_movies.get(position).toString());
             }
         });
@@ -46,6 +49,9 @@ public class DataAdapter extends RecyclerView.Adapter<DataAdapter.ViewHolder> {
         ((RelativeLayout) holder.itemView.findViewById(R.id.relative_layout)).setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View view) {
+
+                int position = holder.getAdapterPosition();
+
                 remove(mcu_movies.get(position).toString());
                 return true;
             }
